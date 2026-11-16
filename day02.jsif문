@@ -1,0 +1,10 @@
+
+let userRequest = "날씨 알려줘";
+
+if (userRequest === "날씨 알려줘") {
+    console.log("날씨 정보를 검색합니다.");
+} else if (userRequest === "주식 분석해줘") {
+    console.log("주식 분석을 시작합니다.");
+} else {
+    console.log("요청을 이해하지 못했습니다.");
+}

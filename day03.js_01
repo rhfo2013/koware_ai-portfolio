@@ -1,0 +1,13 @@
+const userName = "윤호";
+let userAge = 30;
+let point = 1000;
+
+console.log("사용자 이름:", userName);
+console.log("현재 나이:", userAge);
+console.log("현재 포인트:", point);
+
+userAge = 31;
+point = 2000;
+
+console.log("변경된 나이:", userAge);
+console.log("변경된 포인트:", point);

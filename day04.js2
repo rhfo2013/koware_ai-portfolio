@@ -1,0 +1,15 @@
+
+let orders = [500, 300, 800, 200];
+
+function checkOrder(quantity) {
+    if (quantity >= 500) {
+        return "대량주문";
+    } else {
+        return "일반주문";
+    }
+}
+
+for (let i = 0; i < orders.length; i++) {
+    let result = checkOrder(orders[i]);
+    console.log(`orders${i}: ${orders[i]} - ${result}`);
+}
